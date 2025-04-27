@@ -1,0 +1,54 @@
+baseURL = 'https://gohugo.io/'
+languageCode = 'en-us'
+theme = "nightfall"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "posts"
+  # [[menu.header]]
+  #   name = "about"
+  #   weight = 1
+  #   url = "about"
+
+[params]
+user = "lazy"
+hostname = "blog"
+  [params.author]
+    name = "Lazy Blog"  # Website and RSS feed author
+    email = "zhizhiyongyonglazy@gmail.com"  # RSS feed email address
+
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+# [[params.social]]
+# key = 0
+# name = "github"
+# url = "https://github.com/gohugoio"
+# target = "_blank"
+# aria = "GitHub Profile"
+
+# [[params.social]]
+# key = 1
+# name = "twitter"
+# url = "https://www.example.com"
+# aria = "Twitter Profile"
+
+# [[params.social]]
+# key = 2
+# name = "linkedin"
+# url = "https://www.example.com"
+# aria = "LinkedIn Profile"
+
+# [[params.social]]
+# key = 3
+# name = "email"
+# url = "mailto:email@example.com"
+# aria = "My e-Mail Address"
