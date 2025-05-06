@@ -1,6 +1,7 @@
 baseURL = 'https://blog.lazylazylazy.online/'
 languageCode = 'en-us'
-theme = "nightfall"
+theme = "hugo-PaperMod"
+title = "LazyBlog"
 
 [markup]
   [markup.goldmark]
